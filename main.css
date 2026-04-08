@@ -811,3 +811,31 @@ h1 {
 .all-of-them .title {
   width: 370px;
 }
+/* --- Custom title fonts --- */
+.title-screen h1 {
+  font-family: 'Alte Haas Grotesk', sans-serif;
+  color: black;
+  font-size: 2.5em;
+  margin-bottom: 0.4em;
+}
+
+.title-screen h2 {
+  font-family: 'Alte Haas Grotesk', sans-serif;
+  color: black;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.title-screen h3 {
+  font-family: 'Willow Sto', sans-serif;
+  color: black;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.title-screen h4 {
+  font-family: 'Alte Haas Grotesk', sans-serif;
+  color: black;
+  font-size: 1.1em;
+  margin-top: 0.3em;
+}
