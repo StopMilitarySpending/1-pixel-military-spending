@@ -847,3 +847,29 @@ h1 {
   font-size: 1.2em;
   margin-top: 0.4em;
 }
+/* ------------ Military Expenditure Styling ------------ */
+.wealth-wrapper.military {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+#military.wealth.ruler {
+  background: linear-gradient(90deg, #951515 0%, #b71c1c 100%);
+  height: 60px;
+  position: relative;
+  border-radius: 4px;
+}
+
+#military .wealth-title {
+  color: #111;
+  font-family: 'Alte Haas Grotesk', sans-serif;
+}
+
+#military-counter {
+  position: absolute;
+  right: 10px;
+  top: -25px;
+  font-family: 'Alte Haas Grotesk', sans-serif;
+  font-size: 1.1em;
+  color: #333;
+}
