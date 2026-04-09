@@ -10,25 +10,26 @@
   </script>
 
   <title>Global Military Spending, Shown to Scale</title>
-  <meta name="description" content="An interactive visualization of global military spending compared to humanitarian needs." />
-  
-  <!-- Fonts -->
-  <link href="[fonts.cdnfonts.com](https://fonts.cdnfonts.com/css/alte-haas-grotesk)" rel="stylesheet">
-  <link href="[fonts.cdnfonts.com](https://fonts.cdnfonts.com/css/willow-sto)" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="main.css?version=1.1">
+  <meta name="description" content="An interactive visualization of global military spending." />
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Global Military Spending, Shown to Scale">
-  <meta name="twitter:description" content="An interactive visualization of global military spending compared to humanitarian needs.">
-  <meta name="twitter:image" content="[mkorostoff.github.io](https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png)">
+  <meta name="twitter:description" content="An interactive visualization of global military spending.">
+  <!meta name="twitter:image" content="[mkorostoff.github.io](https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png)">¡
 
   <meta property="og:title" content="Global Military Spending, Shown to Scale" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="An interactive visualization of global military spending compared to humanitarian needs." />
-  <meta property="og:image" content="[mkorostoff.github.io](https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png)" />
-  
+  <meta property="og:description" content="An interactive visualization of global military spending." />
+  <!meta property="og:image" content="[mkorostoff.github.io](https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png)" />
+
+<!-- Fonts description -->
+
+
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 </head>
+
+
+<!-- Title & Subtitle & Date & Scroll Arrow -->
 <body>
   <div class="wealth-wrapper-outer">
     <div class="wealth-row wealth-row-one">
@@ -40,8 +41,7 @@
         <div class="scroll-this-way">scroll</div>
       </div>
 
-
-      <!-- Keep the scale examples -->
+<!-- Scale Examples: 1,000 , 1 million , 1 billion -->
       <div class="wealth-wrapper">
         <h2 class="wealth-title">$1,000</h2>
         <div class="wealth one-thousand"></div>
@@ -51,31 +51,48 @@
           </svg>
         </div>
       </div>
-
-      <!-- Removed the median US household section -->
-
       <div class="wealth-wrapper million">
-        <h2 class="wealth-title">$1 million</h2>
+        <h2 class="wealth-title i18n-USD1-million">$1 million</h2>
         <div class="wealth"></div>
       </div>
-
       <div class="wealth-wrapper billion">
         <div class="wealth">
-          <h2 class="wealth-title">$1 billion</h2>
+          <h2 class="wealth-title i18n-USD1-billion">$1 billion</h2>
         </div>
       </div>
       
-<!-- Global Military Expenditure section -->
-<div name="military" class="wealth-wrapper military">
-  <div id="military" class="wealth ruler">
-    <h2 class="wealth-title">$2.7 trillion (Global Military Expenditure — SIPRI 2024)</h2>
-    <div class="counter" id="military-counter"></div>
-    <div class="key"><span>$80 million ≈ 10 pixels</span></div>
-    <div class="text-infobox infobox first">
-      <div class="title">
-        <p>The total global military expenditure for 2024 is estimated at <strong>$2.7 trillion USD</strong>.</p>
-        <p>Scroll → the bar below keeps the exact same proportion as the rest of the site (1 pixel = \$500 000).</p>
-      </div>
+<!-- Global Military Expenditure -->
+      <div name="military" class="wealth-wrapper military">
+        <div id="military" class="wealth ruler">
+          <h2 class="wealth-title i18n-USD2.7-trillion-wealth">$2.7 trillion (Global Military Expenditure — SIPRI 2024)</h2>
+          <div class="counter" id="military-counter"></div>
+          <div class="key">
+            <span>"i18n-USD80-million">$80 million</span>
+          </div>
+          
+          <div class="text-infobox infobox first">
+            <div class="title i18n-ever-wondered-how-much-the-world-spends-on-defense">Ever wondered how much the world spends on defense? According to the Stockholm International Peace Research Institute (SIPRI), the world's military expenditure for 2024 (the latest figures available) was $2.71 trillion, the highest level ever recorded.</div>
+          </div>
+
+          <div class="text-infobox infobox">
+            <div class="title i18n-this-is-a-lot-of-money">This is a lot of money. A LOT. In fact, it is so much money that it is almost impossible to imagine. That's the aim of this platform. Every 10 pixels you scroll is $5 million.</div>
+          </div>
+          
+          <div class="coming-up text-infobox infobox">
+            <div class="title i18n-you-better-sit-down"> You better sit down, because this is just the beginning.</div>
+          </div>
+
+          <div class="text-infobox infobox">
+            <div id="military-counter-start" class="title">
+              <p class="i18n-this-ruler-you-see">The ruler you see at the bottom is to keep you updated on how many millions have passed. Never thought you'd lose count of millions, did you?.</p>
+            </div>
+          </div>
+
+          <div class="text-infobox infobox infobox-half">
+            <div class="title i18-lets-put-this-budget in perspective by comparing it to some familiar things.</div>
+          </div>
+        
+
     </div>
     <div class="coming-up text-infobox infobox">
       <div class="title">Keep scrolling to experience the scale of military spending worldwide →</div>
