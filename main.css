@@ -211,7 +211,7 @@ h4 {
   transform: translate(-50%);
 }
 
-.infobox-half text-infobox {
+.infobox-half.text-infobox {
   position: sticky;
   left: 50%;
   transform: translate(-50%);
