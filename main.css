@@ -103,7 +103,6 @@ h4 {
 }
 
 .wealth {
-  background-color: black;
   align-items: center;
   display: flex;
 }
@@ -174,6 +173,12 @@ h4 {
   color: black;
 }
 
+.text-infobox {
+  position: sticky;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 .infobox {
   z-index: 1;
   margin-left: 6000px;
@@ -195,6 +200,10 @@ h4 {
   margin-left: 4000px;
 }
 
+.coming-up {
+  /* Special styling for "coming up" message if needed */
+}
+
 .sub-infobox {
   margin: 0 40px;
   position: static;
@@ -211,10 +220,8 @@ h4 {
   transform: translate(-50%);
 }
 
-.infobox-half.text-infobox {
-  position: sticky;
-  left: 50%;
-  transform: translate(-50%);
+.un {
+  /* Special styling for UN section if needed */
 }
 
 /* ========== COMPARISON BOXES ========== */
