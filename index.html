@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <script async src="[googletagmanager.com](https://www.googletagmanager.com/gtag/js?id=UA-2320532-12)"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2320532-12"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -10,30 +13,24 @@
   </script>
 
   <title>Global Military Spending, Shown to Scale</title>
-  <meta name="description" content="An interactive visualization of global military spending." />
+  <meta name="description" content="An interactive visualization of global military spending.">
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Global Military Spending, Shown to Scale">
   <meta name="twitter:description" content="An interactive visualization of global military spending.">
-  <!meta name="twitter:image" content="[mkorostoff.github.io](https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png)">¡
+  <meta name="twitter:image" content="https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png">
 
-  <meta property="og:title" content="Global Military Spending, Shown to Scale" />
-  <meta property="og:type" content="website" />
-  <meta property="og:description" content="An interactive visualization of global military spending." />
-  <!meta property="og:image" content="[mkorostoff.github.io](https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png)" />
-
-<!-- Fonts description -->
-
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <meta property="og:title" content="Global Military Spending, Shown to Scale">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="An interactive visualization of global military spending.">
+  <meta property="og:image" content="https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png">
 </head>
 
-
-<!-- Title & Subtitle & Date & Scroll Arrow -->
 <body>
-  <div class="wealth-wrapper-outer"><!--i18n-start-->
+  <div class="wealth-wrapper-outer">
     <div class="wealth-row wealth-row-one">
-     <div class="title-screen">
+      <!-- Title Screen -->
+      <div class="title-screen">
         <h1>Global Military Spending, Shown to Scale</h1>
         <h2>GDAMS</h2>
         <h3>Global Days of Action on Military Spending</h3>
@@ -41,7 +38,7 @@
         <div class="scroll-this-way">scroll</div>
       </div>
 
-<!-- Scale Examples: 1,000 , 1 million , 1 billion -->
+      <!-- Scale Examples: $1,000, $1 million, $1 billion -->
       <div class="wealth-wrapper">
         <h2 class="wealth-title">$1,000</h2>
         <div class="wealth one-thousand"></div>
@@ -51,88 +48,85 @@
           </svg>
         </div>
       </div>
+
       <div class="wealth-wrapper million">
-        <h2 class="wealth-title i18n-USD1-million">$1 million</h2>
+        <h2 class="wealth-title">$1 million</h2>
         <div class="wealth"></div>
       </div>
+
       <div class="wealth-wrapper billion">
         <div class="wealth">
-          <h2 class="wealth-title i18n-USD1-billion">$1 billion</h2>
+          <h2 class="wealth-title">$1 billion</h2>
         </div>
       </div>
       
-<!-- Global Military Expenditure -->
-      <div name="military" class="wealth-wrapper military">
+      <!-- Global Military Expenditure -->
+      <div class="wealth-wrapper military">
         <div id="military" class="wealth ruler">
-          <h2 class="wealth-title i18n-USD2.7-trillion-wealth">$2.7 trillion (Global Military Expenditure — SIPRI 2024)</h2>
+          <h2 class="wealth-title">$2.7 trillion (Global Military Expenditure — SIPRI 2024)</h2>
           <div class="counter" id="military-counter"></div>
           <div class="key">
-            <span>"i18n-USD80-million">$80 million</span>
+            <span>$80 million</span>
           </div>
           
           <div class="text-infobox infobox first">
-            <div class="title i18n-ever-wondered-how-much-the-world-spends-on-defense">Ever wondered how much the world spends on defense? According to the Stockholm International Peace Research Institute (SIPRI), the world's military expenditure for 2024 (the latest figures available) was $2.71 trillion, the highest level ever recorded.</div>
+            <div class="title">Ever wondered how much the world spends on defense? According to the Stockholm International Peace Research Institute (SIPRI), the world's military expenditure for 2024 (the latest figures available) was $2.71 trillion, the highest level ever recorded.</div>
           </div>
 
           <div class="text-infobox infobox">
-            <div class="title i18n-this-is-a-lot-of-money">This is a lot of money. A LOT. In fact, it is so much money that it is almost impossible to imagine. That's the aim of this platform. Every 10 pixels you scroll is $5 million.</div>
+            <div class="title">This is a lot of money. A LOT. In fact, it is so much money that it is almost impossible to imagine. That's the aim of this platform. Every 10 pixels you scroll is $5 million.</div>
           </div>
           
           <div class="coming-up text-infobox infobox">
-            <div class="title i18n-you-better-sit-down"> You better sit down, because this is just the beginning.</div>
+            <div class="title">You better sit down, because this is just the beginning.</div>
           </div>
 
           <div class="text-infobox infobox">
             <div id="military-counter-start" class="title">
-              <p class="i18n-this-ruler-you-see">The ruler you see at the bottom is to keep you updated on how many millions have passed. Never thought you'd lose count of millions, did you?.</p>
+              <p>The ruler you see at the bottom is to keep you updated on how many millions have passed. Never thought you'd lose count of millions, did you?</p>
             </div>
           </div>
 
           <div class="text-infobox infobox infobox-half">
-            <div class="title i18-lets-put-this-budget">Let's put this budget in perspective by comparing it to some familiar things.</div>
+            <div class="title">Let's put this budget in perspective by comparing it to some familiar things.</div>
           </div>
 
           <div class="infobox infobox-half swiss-average-salary">
             <div class="title-square-wrapper">
-              <div class="title i18n-swiss-average-salary">All the money the average Swiss citizen will ever earn in their entire life from the day they are born until the day they die.</div>
+              <div class="title">All the money the average Swiss citizen will ever earn in their entire life from the day they are born until the day they die.</div>
               <div class="square"></div>
             </div>
           </div>
 
           <div class="sub-infobox taylor-swift">
-            <div class="title i18n-wealth-of-taylor-swift">Wealth of Taylor Swift ($2 billion)</div>
+            <div class="title">Wealth of Taylor Swift ($2 billion)</div>
             <div class="square shadow"></div>
           </div>         
 
           <div class="infobox infobox-half text-infobox">
             <div class="title">
-              <p class="i18n-compare-to-other-state-expenses">Yes, it is still going. Even when compared to other state expenditures, what current goverments are spending in defense is unfathomable.</p>
+              <p>Yes, it is still going. Even when compared to other state expenditures, what current governments are spending in defense is unfathomable.</p>
             </div>
           </div>
 
-          <div class="sub-infobox 2024-olympics">
-            <div class="title i18n-2024-olympics-cost">Cost of the 2024 Paris Olympics ($8.2 billion)</div>
+          <div class="sub-infobox olympics-2024">
+            <div class="title">Cost of the 2024 Paris Olympics ($8.2 billion)</div>
             <div class="square shadow"></div>
           </div>               
           
-          <div class="sub-infobox UN-cost">
-            <div class="title i18n-total-cost-UN">Total cost of the United Nations in 2023 ($68.5 billion)</div>
+          <div class="sub-infobox un-cost">
+            <div class="title">Total cost of the United Nations in 2023 ($68.5 billion)</div>
             <div class="square shadow"></div>
           </div>  
 
-          <div class="UN infobox text-infobox">
-            <div class="title i18-even-the-UN">Even the United Nations, accused continuously about being too expensive for states, becomes cheap compared to the money invested in arming ourselves.</div>
+          <div class="un infobox text-infobox">
+            <div class="title">Even the United Nations, accused continuously about being too expensive for states, becomes cheap compared to the money invested in arming ourselves.</div>
           </div>
-
-          
-            
-        
-            
         </div>
       </div>
     </div>
-<!--i18n-end-->      
-</div>
-<script type="text/javascript" src="main.js?version=1.1"></script>
+  </div>
+
+  <script type="text/javascript" src="main.js?version=1.1"></script>
 </body>
 </html>
