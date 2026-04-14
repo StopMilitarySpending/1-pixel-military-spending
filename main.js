@@ -9,6 +9,8 @@ var money = new Intl.NumberFormat('en-US', {
   maximumFractionDigits: 0,
 });
 
+var thousand = new Intl.NumberFormat('en-US');
+
 window.addEventListener('scroll', function(){
   update_military_counter();
 });
@@ -16,9 +18,11 @@ window.addEventListener('scroll', function(){
 function update_military_counter() {
   if (military_viewable()) {
     if (military_counter_viewable()) {
-      // Every pixel = $500,000
-      let expenditure = (window.scrollX - military.offsetLeft + 175) * 500000;
-      military_counter.innerHTML = (expenditure < 2710000000000) ? money.format(expenditure) : "$2,710,000,000,000.00";
+      // Calculate based on scroll position
+      // Every 2 pixels = $1 million (since 10 pixels = $5 million)
+      let militarySpent = (window.scrollX - military.offsetLeft + 175) * 500000;
+      let displayValue = (militarySpent < 2710000000000) ? money.format(militarySpent) : "$2,710,000,000,000.00";
+      military_counter.innerHTML = displayValue;
     }
     else {
       military_counter.innerHTML = '';
