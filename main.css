@@ -121,13 +121,13 @@ h4 {
 /* Scale Examples */
 .one-thousand {
   width: 1px;
-  height: 500px;
+  height: 1px;
   background-color: #CFCACA;
 }
 
 .million .wealth {
-  width: 200px;
-  height: 500px;
+  width: 10px;
+  height: 10px;
   background-color: #CFCACA;
 }
 
