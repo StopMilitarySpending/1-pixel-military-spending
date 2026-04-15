@@ -120,26 +120,26 @@ h4 {
 
 /* Scale Examples */
 .one-thousand {
-  width: 1px;
-  height: 1px;
+  width: 1.06px;
+  height: 1.06px;
   background-color: #CFCACA;
 }
 
 .million .wealth {
-  width: 10px;
-  height: 10px;
+  width: 33.62px;
+  height: 33.62px;
   background-color: #CFCACA;
 }
 
 .billion .wealth {
-  width: 2000px;
+  width: 2260,6px;
   height: 500px;
   background-color: #CFCACA;
 }
 
 /* Military Expenditure Main Box */
 #military.wealth.ruler {
-  width: 542000px;
+  width: 6103643,76px;
   height: 500px;
   background-color: #5D825B;
   position: relative;
