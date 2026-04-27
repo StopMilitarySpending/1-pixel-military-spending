@@ -51,6 +51,13 @@ h4 {
   margin-top: 0.4em;
 }
 
+.title-illustration {
+  width: 80%;
+  max-width: 900px;
+  margin-top: 40px;
+  display: block;
+}
+
 /* ========== SCROLL INDICATOR ========== */
 .scroll-this-way {
   position: fixed;
@@ -159,12 +166,23 @@ h4 {
 
 /* ========== COUNTER ========== */
 .counter {
-  position: absolute;
-  right: 10px;
-  top: -25px;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
   font-size: 1.1em;
+  font-weight: bold;
   color: #333;
-  min-width: 140px;
+  background: rgba(255,255,255,0.85);
+  padding: 6px 12px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 100;
+  min-width: 200px;
+  display: none;
+}
+
+.counter.visible {
+  display: block;
 }
 
 /* ========== INFOBOX STYLES ========== */
