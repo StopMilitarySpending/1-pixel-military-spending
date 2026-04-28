@@ -112,6 +112,36 @@ h1 {
 }
 
 /* ========== WEALTH BOXES ========== */
+.intro-text-box {
+  position: sticky;
+  left: 50%;
+  transform: translate(-50%);
+  width: 96vw;
+  max-width: 500px;
+  margin-left: 300px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: black;
+}
+
+.scale-text-box {
+  position: sticky;
+  left: 50%;
+  transform: translate(-50%);
+  width: 96vw;
+  max-width: 500px;
+  margin-left: 300px;
+  font-size: 1em;
+  line-height: 1.6;
+  color: black;
+}
+
+.wealth-title {
+  align-self: flex-start;
+  position: sticky;
+  left: 0;
+}  
+
 .wealth-title {
   align-self: flex-start;
   position: sticky;
