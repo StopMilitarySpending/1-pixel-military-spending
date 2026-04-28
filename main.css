@@ -14,14 +14,16 @@ html,
 /* ========== TITLE SCREEN ========== */
 .title-screen {
   width: 100vw;
+  height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  justify-content: flex-start;
+  padding-top: 60px;
+  box-sizing: border-box;
   position: relative;
+  margin: 0;
 }
 
 h1, h2, h3, h4 {
