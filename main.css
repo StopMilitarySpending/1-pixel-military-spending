@@ -14,17 +14,14 @@ html,
 /* ========== TITLE SCREEN ========== */
 .title-screen {
   width: 100vw;
-  height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  padding-top: 90px;
-  box-sizing: border-box;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
   position: relative;
-  margin: 0;
-  flex-shrink: 0;
 }
 
 h1, h2, h3, h4 {
@@ -36,8 +33,6 @@ h1 {
   font-size: 2.8em;
   margin-bottom: 0.6em;
   line-height: 0.9;
-  position: relative;
-  z-index: 2;
 }
 
 h2 {
@@ -121,7 +116,6 @@ h4 {
 
 .wealth-row {
   display: inline-flex;
-  align-items: center;
 }
 
 .wealth-wrapper {
@@ -134,26 +128,6 @@ h4 {
 }
 
 /* ========== WEALTH BOXES ========== */
-
-.intro-text-box {
-  position: sticky;
-  left: 50%;
-  transform: translate(-50%);
-  width: 96vw;
-  max-width: 500px;
-  margin-left: 300px;
-  margin-right: 300px;
-  font-size: 1.1em;
-  line-height: 1.6;
-  color: black;
-  align-self: center;
-  flex-shrink: 0;
-}
-
-.intro-text-box p {
-  margin: 0;
-}
-
 .wealth-title {
   align-self: flex-start;
   position: sticky;
@@ -257,6 +231,10 @@ h4 {
   margin-left: 4000px;
 }
 
+.coming-up {
+  /* Special styling for "coming up" message if needed */
+}
+
 .sub-infobox {
   margin: 0 40px;
   position: static;
@@ -273,30 +251,34 @@ h4 {
   transform: translate(-50%);
 }
 
+.un {
+  /* Special styling for UN section if needed */
+}
+
 /* ========== COMPARISON BOXES ========== */
 .swiss-average-salary .square {
-  width: 108px;
+  width: 640px;
   height: 350px;
   background-color: #DA291C;
   box-shadow: -3px 5px 10px;
 }
 
 .taylor-swift .square {
-  width: 67240px;
+  width: 4000px;
   height: 350px;
   background-color: #D154BE;
   box-shadow: -3px 5px 10px;
 }
 
 .olympics-2024 .square {
-  width: 275684px;
+  width: 16400px;
   height: 350px;
   background-color: #ADBA4A;
   box-shadow: -3px 5px 10px;
 }
 
 .un-cost .square {
-  width: 2303690px;
+  width: 137000px;
   height: 350px;
   background-color: #5B92E5;
   box-shadow: -3px 5px 10px;
@@ -321,10 +303,5 @@ h4 {
   .text-infobox .title,
   .infobox .title {
     width: 90vw;
-  }
-
-  .scroll-this-way {
-    right: 15px;
-    bottom: 15px;
   }
 }
