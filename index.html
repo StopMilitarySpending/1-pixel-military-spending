@@ -19,18 +19,17 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Global Military Spending, Shown to Scale">
   <meta name="twitter:description" content="An interactive visualization of global military spending.">
-  <meta name="twitter:image" content="https://stopmilitaryspending.github.io/1-pixel-military-spending/img/gcoms-illustration.png">
+  <meta name="twitter:image" content="https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png">
 
   <meta property="og:title" content="Global Military Spending, Shown to Scale">
   <meta property="og:type" content="website">
   <meta property="og:description" content="An interactive visualization of global military spending.">
-  <meta property="og:image" content="https://stopmilitaryspending.github.io/1-pixel-military-spending/img/gcoms-illustration.png">
+  <meta property="og:image" content="https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png">
 </head>
 
 <body>
   <div class="wealth-wrapper-outer">
     <div class="wealth-row wealth-row-one">
-
       <!-- Title Screen -->
       <div class="title-screen">
         <h1>Global Military Spending, Shown to Scale</h1>
@@ -38,14 +37,13 @@
         <div class="scroll-this-way">scroll</div>
       </div>
 
-      <!-- Intro text box -->
-      <div class="intro-text-box">
-        <p>Ever wondered how much the world spends on the war industry? This is an attempt to show you. First, let's get a sense of how money is represented to scale here.</p>
+      <!-- Scale Examples: $1,000, $1 million, $1 billion -->
+       <div class="intro-text-box">
+        <p>Ever wondered how much the world spends on the war industry? This is an attempt to show you. First, let's see how money is represented to scale here.</p>
       </div>
 
-      <!-- $1,000 -->
-      <div class="intro-text-box">
-        <p>The following is a representation of $1,000 — it's the tiny dot the arrow points at. You may want to get your glasses.</p>
+      <div class="scale-text-box">
+        <p>The following is a representation of $1,000 — it's the little dot the arrow points at. You may want to get your glasses.</p>
       </div>
 
       <div class="wealth-wrapper">
@@ -58,9 +56,8 @@
         </div>
       </div>
 
-      <!-- $1 million -->
-      <div class="intro-text-box">
-        <p>Let's continue with $1,000,000 — what working people think of as a fortune.</p>
+      <div class="scale-text-box">
+        <p>The following is a representation of $1,000,000 — what working people think of as a fortune.</p>
       </div>
 
       <div class="wealth-wrapper million">
@@ -68,7 +65,6 @@
         <div class="wealth"></div>
       </div>
 
-      <!-- $1 billion -->
       <div class="wealth-wrapper billion">
         <div class="wealth">
           <h2 class="wealth-title">$1 billion</h2>
@@ -78,15 +74,15 @@
       <!-- Global Military Expenditure -->
       <div class="wealth-wrapper military">
         <div id="military" class="wealth ruler">
-          <h2 class="wealth-title">$2.887 trillion (Global Military Expenditure — SIPRI 2025)</h2>
-          <div class="counter" id="military-counter"></div>
+          <h2 class="wealth-title">$2.887 trillion (Global Military Expenditure 2025)</h2>
+        <div class="counter" id="military-counter"></div>
           
           <div class="text-infobox infobox first">
             <div class="title">Ever wondered how much the world spends on defense? According to the Stockholm International Peace Research Institute (SIPRI), the world's military expenditure for 2025 (the latest figures available) was $2.887 trillion, the highest level ever recorded.</div>
           </div>
 
           <div class="text-infobox infobox">
-            <div class="title">This is a lot of money. A LOT. In fact, it is so much money that it is almost impossible to imagine. That's the aim of this platform. Every pixel you scroll is about $30,000 — a year's salary for many people.</div>
+            <div class="title">This is a lot of money. A LOT. In fact, it is so much money that it is almost impossible to imagine. That's the aim of this platform. Every 10 pixels you scroll is $5 million.</div>
           </div>
           
           <div class="coming-up text-infobox infobox">
@@ -95,7 +91,7 @@
 
           <div class="text-infobox infobox">
             <div id="military-counter-start" class="title">
-              <p>The ruler you see at the bottom is to keep you updated on how much has passed. Never thought you'd lose count of millions, did you?</p>
+              <p>The ruler you see at the bottom is to keep you updated on how many millions have passed. Never thought you'd lose count of millions, did you?</p>
             </div>
           </div>
 
@@ -105,7 +101,7 @@
 
           <div class="infobox infobox-half text-infobox swiss-average-salary">
             <div class="title-square-wrapper">
-              <div class="title">All the money the average Swiss citizen will ever earn in their entire life from the day they are born until the day they die (~$3.2 million).</div>
+              <div class="title">All the money the average Swiss citizen will ever earn in their entire life from the day they are born until the day they die.</div>
               <div class="square"></div>
             </div>
           </div>
@@ -136,10 +132,9 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 
-  <script type="text/javascript" src="main.js?version=1.2"></script>
+  <script type="text/javascript" src="main.js?version=1.1"></script>
 </body>
 </html>
