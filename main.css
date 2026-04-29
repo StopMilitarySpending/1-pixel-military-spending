@@ -24,14 +24,36 @@ html,
   box-sizing: border-box;
   position: relative;
   margin: 0;
+  flex-shrink: 0;
+}
+
+h1, h2, h3, h4 {
+  color: black;
+  margin: 0;
 }
 
 h1 {
-  color: black;
-  margin: 0;
   font-size: 2.8em;
   margin-bottom: 0.6em;
   line-height: 0.9;
+  position: relative;
+  z-index: 2;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin: 0.2em 0;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 0.1em 0;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin-top: 0.4em;
 }
 
 .title-illustration {
@@ -99,6 +121,7 @@ h1 {
 
 .wealth-row {
   display: inline-flex;
+  align-items: center;
 }
 
 .wealth-wrapper {
@@ -111,6 +134,7 @@ h1 {
 }
 
 /* ========== WEALTH BOXES ========== */
+
 .intro-text-box {
   position: sticky;
   left: 50%;
@@ -118,28 +142,17 @@ h1 {
   width: 96vw;
   max-width: 500px;
   margin-left: 300px;
+  margin-right: 300px;
   font-size: 1.1em;
   line-height: 1.6;
   color: black;
+  align-self: center;
+  flex-shrink: 0;
 }
 
-.scale-text-box {
-  position: sticky;
-  left: 50%;
-  transform: translate(-50%);
-  width: 96vw;
-  max-width: 500px;
-  margin-left: 300px;
-  font-size: 1em;
-  line-height: 1.6;
-  color: black;
+.intro-text-box p {
+  margin: 0;
 }
-
-.wealth-title {
-  align-self: flex-start;
-  position: sticky;
-  left: 0;
-}  
 
 .wealth-title {
   align-self: flex-start;
@@ -244,10 +257,6 @@ h1 {
   margin-left: 4000px;
 }
 
-.coming-up {
-  /* Special styling for "coming up" message if needed */
-}
-
 .sub-infobox {
   margin: 0 40px;
   position: static;
@@ -264,34 +273,30 @@ h1 {
   transform: translate(-50%);
 }
 
-.un {
-  /* Special styling for UN section if needed */
-}
-
 /* ========== COMPARISON BOXES ========== */
 .swiss-average-salary .square {
-  width: 640px;
+  width: 108px;
   height: 350px;
   background-color: #DA291C;
   box-shadow: -3px 5px 10px;
 }
 
 .taylor-swift .square {
-  width: 4000px;
+  width: 67240px;
   height: 350px;
   background-color: #D154BE;
   box-shadow: -3px 5px 10px;
 }
 
 .olympics-2024 .square {
-  width: 16400px;
+  width: 275684px;
   height: 350px;
   background-color: #ADBA4A;
   box-shadow: -3px 5px 10px;
 }
 
 .un-cost .square {
-  width: 137000px;
+  width: 2303690px;
   height: 350px;
   background-color: #5B92E5;
   box-shadow: -3px 5px 10px;
@@ -316,5 +321,10 @@ h1 {
   .text-infobox .title,
   .infobox .title {
     width: 90vw;
+  }
+
+  .scroll-this-way {
+    right: 15px;
+    bottom: 15px;
   }
 }
